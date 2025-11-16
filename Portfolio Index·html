@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>عاصم منصور الاغبري — مطور ويب وموبايل</title>
+  <meta name="description" content="عاصم منصور الاغبري — مطور ويب وموبايل محترف، متخصص في تطوير الأنظمة المتكاملة وقيادة المشاريع.">
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#06b6d4}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#071022 0%, #0b1220 100%);color:#e6eef6;line-height:1.5}
+    .wrap{max-width:980px;margin:36px auto;padding:28px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03);backdrop-filter:blur(6px);padding:26px;border-radius:14px}
+    .row{display:flex;gap:22px;flex-wrap:wrap;align-items:center}
+    .avatar{flex:0 0 160px;width:160px;height:160px;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,0.04);background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:28px}
+    .subtitle{color:var(--muted);margin-top:6px;font-size:14px}
+    .bio{margin-top:14px;color:#dce9f3}
+    .actions{margin-top:16px;display:flex;gap:8px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);text-decoration:none;color:inherit;font-size:14px}
+    .btn.primary{background:linear-gradient(90deg,var(--accent),#7c3aed);color:#021024}
+    .section{margin-top:22px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .chip{background:rgba(255,255,255,0.03);padding:10px;border-radius:8px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:rgba(255,255,255,0.02);padding:8px 10px;border-radius:999px;font-size:13px;color:var(--muted)}
+    .projects .project{padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));border:1px solid rgba(255,255,255,0.02)}
+    footer{margin-top:26px;text-align:center;color:var(--muted);font-size:13px}
+    @media (max-width:640px){.row{flex-direction:column;align-items:flex-start}.avatar{width:120px;height:120px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="card">
+      <div class="row">
+        <div class="avatar" aria-hidden="true">عـا</div>
+        <div style="flex:1">
+          <h1>عاصم منصور الاغبري</h1>
+          <div class="subtitle">مطور ويب وموبايل — تقنية المعلومات، تصميم واجهات المستخدم</div>
+          <p class="bio">مطور ويب وموبايل محترف، متخصص في تطوير الأنظمة المتكاملة وقيادة المشاريع الصغيرة والمتوسطة، بخبرة في حل المشكلات وتحسين الأداء باستخدام أحدث التقنيات.</p>
+
+          <div class="actions">
+            <a class="btn" href="https://wa.me/967777678358" target="_blank" rel="noopener noreferrer" title="اتصل أو راسل عبر واتساب">واتساب</a>
+            <a class="btn" href="https://t.me/EmperorIT" target="_blank" rel="noopener noreferrer" title="رسائل تلجرام">تلجرام</a>
+            <a class="btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=aswas733974922@gmail.com" target="_blank" rel="noopener noreferrer" title="افتح في Gmail">Gmail</a>
+            <a class="btn" href="https://www.linkedin.com/in/عاصم-منصور-الاغبري-9b5905395" target="_blank" rel="noopener noreferrer" title="صفحة لينكدإن">لينكدإن</a>
+          </div>
+        </div>
+      </div>
+
+      <section class="section">
+        <h3>المهارات</h3>
+        <div class="skills" aria-label="مهارات عاصم">
+          <span class="skill">قيادة الفرق</span>
+          <span class="skill">حل المشكلات</span>
+          <span class="skill">تصميم واجهات المستخدم (UI/UX)</span>
+          <span class="skill">تطوير الويب (Frontend/Backend)</span>
+          <span class="skill">تطوير تطبيقات الموبايل</span>
+          <span class="skill">هندسة النظم &amp; تكامل الأنظمة</span>
+          <span class="skill">تصميم قواعد البيانات</span>
+          <span class="skill">تكامل واجهات برمجة التطبيقات (APIs)</span>
+          <span class="skill">تحسين الأداء &amp; التخطيط التقني</span>
+          <span class="skill">اختبار وجودة البرمجيات</span>
+          <span class="skill">ممارسات الأمان الأساسية</span>
+          <span class="skill">التحكم بالإصدارات (Git)</span>
+          <span class="skill">إدارة المشاريع الصغيرة</span>
+        </div>
+      </section>
+
+      <section class="section projects">
+        <h3>المشاريع</h3>
+        <div class="grid">
+          <div class="project">
+            <strong>نظام إدارة متكامل</strong>
+            <p class="subtitle" style="margin:6px 0">نظام شبيه بنظام نقاط البيع/إدارة المخزون والتقارير.</p>
+          </div>
+          <div class="project">
+            <strong>تطبيق موبايل لتتبع الخدمات</strong>
+            <p class="subtitle" style="margin:6px 0">تطبيق يحسن تجربة المستخدم للتواصل وإدارة الطلبات.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div>رابط التحميل أو النشر: <span style="color:var(--accent)">index.html</span></div>
+        <div style="margin-top:6px">تواصل: <a href="mailto:aswas733974922@gmail.com" style="color:inherit">aswas733974922@gmail.com</a></div>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
